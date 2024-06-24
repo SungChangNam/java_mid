@@ -31,5 +31,7 @@ public class SystemMain {
         //프로그램 종료(권장하지 않음)
         System.exit(0);
         System.out.println("hello");
+
+
     }
 }
