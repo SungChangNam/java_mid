@@ -1,6 +1,6 @@
 package time.test;
 
-import java.time.DayOfWeek;
+import java. time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Scanner;
 
