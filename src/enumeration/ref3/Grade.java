@@ -7,14 +7,17 @@ public enum Grade {
 
 
     Grade(int discountPercent) {
+
         this.discountPercent = discountPercent;
     }
 
     public int getDiscountPercent() {
+
         return discountPercent;
     }
 
     public int discount(int price) {
+
         return price * discountPercent / 100;
     }
 
