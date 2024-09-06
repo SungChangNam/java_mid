@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 public class MainV4 {
     public static void main(String[] args)  {
-        NetWorkServiceV4 networkService =new NetWorkServiceV4();
+        //NetWorkServiceV4 networkService =new NetWorkServiceV4();
+        NetWorkServiceV5 networkService =new NetWorkServiceV5();
+
         Scanner scanner =new Scanner(System.in);
         while (true){
             System.out.print("전송할 문자:");
@@ -32,8 +34,8 @@ public class MainV4 {
         //공토 처리
         System.out.println("사용자 메시지: 죄송합니다. 알 수 없는 문제가 발생했습니다.");
         System.out.println("==개발자용 디버깅 메시지==");
-        //e.printStackTrace(System.out); // 스택 트레이스 출력
-        e.printStackTrace(System.err);
+        e.printStackTrace(System.out); // 스택 트레이스 출력
+        //e.printStackTrace(System.err);
 
 
         //필요하면 예뵈 별로의 추가 처리 가능
